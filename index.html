@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io /apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io /favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io /favicon-16x16.png">
+<link rel="manifest" href="favicon_io /site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="weatherInfo">
+            <div class="row">
+                <h2 class="cityTxt"></h2>
+                <h2 class="countryTxt"></h2>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <p>Actual:</p>
+                    <h2 class="actTemp"></h2>
+                </div>
+                <div class="box">
+                    <p>Feels like:</p>
+                    <h2 class="feelTemp"></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skyImg"></div>
+                <h2 class="skyTxt"></h2>
+            </div>
+            <div class="row">
+                <img class="windImg" src="img/direction.png" alt="">
+                <h2 class="windTxt"></h2>
+            </div>
+            <div class="row">
+                <img class="preImg" src="img/pressure-gauge.png" alt="pre">
+                <h2 class="preTxt"></h2>
+            </div>
+        </div>
+       <div class="card">
+        <img class="cloudsImg" src="img/cloudy.png" alt="">
+        <div class="rowInp">
+            <p>Enter the city:</p>
+            <input id="cityInp" class="cityInp" type="text">
+        </div>
+        <div class="findBtn">Check <br> weather</div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

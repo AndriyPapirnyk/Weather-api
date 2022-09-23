@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(-47deg, rgb(110, 245, 0) 0%, rgb(66, 110, 255) 100%);
+    padding: 0 110px;
+    transition: 1s;
+}
+.card{
+    width: 370px;
+    height: 500px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 0;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -180px;
+}
+.cloudsImg{
+    width: 170px;
+}
+.rowInp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rowInp p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.findBtn{
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 40px;
+    background-color: rgb(130, 203, 227);
+    margin-top: 60px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.findBtn:hover{
+    background-color: rgb(75, 75, 251);
+    transition: 0.4s;
+}
+.cityInp{
+    width: 250px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: unset;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+}
+.weatherInfo{
+    width: 800px;
+    height: 500px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+}
+.row:last-child{
+    border-bottom: none;
+}
+.cityTxt{
+    margin-right: 30px;
+}
+.box{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.box:first-child{
+    margin-right: 50px;
+}
+.box p{
+    font-size: 20px;
+}
+.windImg{
+    width: 45px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.preImg{
+    width: 55px;
+    margin-right: 20px;
+}
+.skyTxt::first-letter{
+    text-transform: uppercase;
+}
+.skyImg{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin-right: 20px;
+}
